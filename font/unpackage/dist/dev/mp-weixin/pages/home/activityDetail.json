@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

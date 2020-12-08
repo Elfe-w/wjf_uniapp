@@ -1,0 +1,58 @@
+
+.activityDetail-main{
+	width: 100%;
+	height: 100%;
+}
+.activityDetail-box{
+	width: 100%;
+	height: calc(100% - 44px);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.scroll-activity-content{
+	width: calc(100% - 30px);
+	min-height: 200px;
+	max-height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+.activity-content{
+	width: 100%;
+	margin-top: 10px;
+	min-height: 400px;
+	max-height: 400px;
+}
+.activity-content-text{
+	width: 100%;
+	min-height: 100px;
+	text-align: justify;
+	text-justify: newspaper;
+	word-break: break-all;
+	font-size: 16px;
+}
+.activity-title{
+	padding:5px 0;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

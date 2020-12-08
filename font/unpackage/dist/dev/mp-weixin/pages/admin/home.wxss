@@ -1,0 +1,150 @@
+
+page {
+	width: 100%;
+	height: 100%;
+}
+.admin-main {
+	width: 100%;
+	height: 100%;
+}
+.message {
+	height: 100%;
+}
+.satus-bar-height {
+	height: 25px;
+}
+.message-subsection {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.message-subsection-main {
+	width: 80%;
+	border-radius: 25px !important;
+}
+ .u-item-bg {
+	border-radius: 25px !important;
+}
+.swiper {
+	height: calc(100% - 25px - 102rpx - 80rpx);
+}
+.scroll{
+	height: 100%;
+}
+.activity-list-box {
+	padding-top: 25rpx;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+.activity-list {
+	height: 130px;
+	border-radius: 50rpx;
+	box-shadow: 0 0 120rpx 0 rgba(43, 86, 112, .2);
+	overflow: hidden;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.activity-status {
+	width: 4%;
+	height: 100%;
+	background-color: #09BB07;
+	margin: 0;
+}
+.activity-status-end {
+	width: 4%;
+	height: 100%;
+	background-color: #ff9900;
+	margin: 0;
+}
+.activity-title {
+	width: 84%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.activity-title-t {
+	margin-top: 20px;
+}
+.activity-title-v {
+	font-size: 30rpx;
+	margin-top: -8px;
+	height: 25px;
+	color: #8a8c8e;
+}
+.activity-title-date {
+	margin-top: 13px;
+	margin-left: 70%;
+	font-size: 20rpx;
+}
+.activity-action {
+	width: 12%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.activity-back-button{
+	width: 100rpx;
+	height: 100rpx;
+	position: absolute;
+	z-index: 999;
+	bottom: 150rpx;
+	right: 30rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 100rpx 0 rgba(152, 245, 255, .3);
+}
+.activity-add-button {
+	width: 100rpx;
+	height: 100rpx;
+	position: absolute;
+	z-index: 999;
+	bottom: 280rpx;
+	right: 30rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 100rpx 0 rgba(152, 245, 255, .3);
+}
+.activity-rank-button{
+	width: 100rpx;
+	height: 100rpx;
+	position: absolute;
+	z-index: 999;
+	bottom: 410rpx;
+	right: 30rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 100rpx 0 rgba(152, 245, 255, .3);
+}
+

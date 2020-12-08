@@ -1,0 +1,42 @@
+<?php
+declare(strict_types=1);
+return[
+    //API密钥key
+    'accessKey'=>'',
+    //API密钥Secret
+    'accessKeySecret'=>'',
+    'pay'=>[
+        //地址类型
+        'protocol'=>'https',
+        //支付宝网关
+        'gatewayHost'=>'openapi.alipay.com',
+        //签名方式
+        'signType'=>'RSA2',
+        //开发者appId
+        'appId'=>'',
+        //支付宝回调地址
+        'notifyUrl'=>'https://xxx.xxx.com/AliPayReturn',
+        //用户私钥
+        'merchantPrivateKey'=>'',
+        //支付宝证书,放入如下目录即可
+        'alipayCertPath'=>ROOT_PATH.'application'.DS.'lib'.DS.'secret'.DS.'alipayCertPublicKey_RSA2.crt',
+        'alipayRootCertPath'=>ROOT_PATH.'application'.DS.'lib'.DS.'secret'.DS.'alipayRootCert.crt',
+        //注意文件名称需要相同,不相同自行修改即可
+        'merchantCertPath'=>ROOT_PATH.'application'.DS.'lib'.DS.'secret'.DS.'appCertPublicKey_2021001172636841.crt',
+        //若使用公钥方式,则上三个参数为空,建议使用证书方式
+        'alipayPublicKey'=>'',
+        //API接口设置加密时才需要
+        'encryptKey'=>'',
+    ],
+    'sms'=>[
+        'product'=>'Dysmsapi',
+        'version'=>'2017-05-25',
+        'action'=>'SendSms',
+        'method'=>'POST',
+        'host'=>'dysmsapi.aliyuncs.com',
+        //签名名称
+        'signName'=>'',
+        //签名模版CODE
+        'signModel'=>'',
+    ]
+];
